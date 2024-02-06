@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #383737;
+    color: #fff;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #d3da0a;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
