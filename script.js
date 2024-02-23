@@ -1,6 +1,6 @@
 const globalMousePosText = document.getElementById('output');
 const localMousePosText = document.getElementById('local-mouse-pos');
-const box = document.querySelector(".box")
+const box = document.querySelector(".player")
 let rect = box.getBoundingClientRect()
 
 
@@ -31,3 +31,20 @@ let listener = function(e) {
 box.addEventListener('click', e => {
     document.addEventListener('mousemove', listener)
 })
+
+
+const enemies = document.querySelector('.enemies')
+
+function GenerateEnemy() {
+    let enemy = document.createElement("div")
+    enemy.className = "enemy"
+    enemies.append(enemy)
+    enemy.style.transform = `translate(1000px, 0)`
+    // setInterval(()=>{
+       
+    // }, 10000000)
+}
+
+GenerateEnemy()
+
+

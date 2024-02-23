@@ -9,11 +9,29 @@ body {
     color: #fff;
 }
 
-.box {
+.player{
     width: 100px;
     height: 100px;
     background: #d3da0a;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 54rem;
+    top: 24rem;
 }
+
+
+.enemies {
+    display: flex;
+}
+
+.enemy {
+    width: 30px;
+    height: 90vh;
+    background: #ac2d2d;
+    
+    transition: 2s;
+}
+
+
+.enemy {
+    transition: all 3s;
+  }
